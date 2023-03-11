@@ -48,10 +48,10 @@
                 let text = await response.text()
                 text =this.repa(text)
                 //以漫开头 紧跟着 多个字符(\S*) 然后一个空格(\s+) 再多个字符 再一个空格
-                text = text.replace(/漫威里的机械狂潮\S*\s+\S*\s+/g, '<br><br><h2>$&</h2>')
+                // text = text.replace(/title:\S*\s+\S*\s+/g, '<br><br><h2>$&</h2>')
 
                 // // 将双引号包裹的内容转换为带换行的段落
-                text = text.replace(/“(.*?)”/g, '<p>"$1"</p>')
+                // text = text.replace(/“(.*?)”/g, '<p>"$1"</p>')
                 // // 将双空格转换为换行符
                 // text = text.replace(/ {2}/g, '<br/>')
 
