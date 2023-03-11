@@ -53,6 +53,14 @@
             <artifactId>jsoup</artifactId>
             <version>1.11.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>5.2.0</version>
+            <scope>system</scope>
+            <systemPath>C:/Users/yimeng/IdeaProjects/webdrivermanager-5.2.0-fat.jar</systemPath>
+
+        </dependency>
     </dependencies>
 
     <build>
