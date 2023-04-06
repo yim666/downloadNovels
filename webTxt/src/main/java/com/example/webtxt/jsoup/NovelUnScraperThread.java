@@ -136,7 +136,7 @@ public class NovelUnScraperThread {
                     content1 = "<h2>" + contentElement1.text() + "</h2>";
                     //正文
                     Element contentElement = chapterDoc.selectFirst(Constant.contentReg);
-                    content = contentElement.text();
+                    content = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+contentElement.text();
                     break;
                 }
                 System.out.println(content1);
