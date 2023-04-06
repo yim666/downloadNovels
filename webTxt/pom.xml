@@ -58,7 +58,7 @@
             <artifactId>selenium-chrome-driver</artifactId>
             <version>5.2.0</version>
             <scope>system</scope>
-            <systemPath>C:/Users/yimeng/IdeaProjects/webdrivermanager-5.2.0-fat.jar</systemPath>
+            <systemPath>${project.basedir}/lib/webdrivermanager-5.2.0-fat.jar</systemPath>
 
         </dependency>
     </dependencies>
