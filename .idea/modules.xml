@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/downloadNovel.iml" filepath="$PROJECT_DIR$/downloadNovel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webTxt/webTxt.iml" filepath="$PROJECT_DIR$/webTxt/webTxt.iml" />
     </modules>
   </component>
 </project>

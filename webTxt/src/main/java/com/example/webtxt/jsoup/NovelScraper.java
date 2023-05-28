@@ -115,7 +115,6 @@ headers.put("sec-ch-ua","\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \
                             .header("Accept-Encoding", "gzip, deflate")  // 设置请求头
                             .ignoreContentType(true)  // 忽略内容类型
                             .ignoreHttpErrors(true)   // 忽略 HTTP 错误
-                            .validateTLSCertificates(false)  // 不验证 SSL 证书
                             .get();
                      break;
                 }catch (Exception e){
